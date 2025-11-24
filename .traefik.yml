@@ -1,0 +1,12 @@
+displayName: Mamad Middleware by MohamadReza
+type: middleware
+iconPath: .assets/icon.png
+
+import: github.com/mohamadrezamomeni/mamad
+
+summary: "[Demo] Add Request Header"
+
+testData:
+  Headers:
+    X-Demo: test
+    X-URL: "{{URL}}"
